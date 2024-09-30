@@ -139,4 +139,21 @@ table{
 }
 .div-tablas{
      padding: 50px;
+}.img-rauw{
+     height: 400px;
+     width: auto;
+}
+.section-img{
+     height: calc(100vh - 7em);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding: 10px;
+}
+.div-section-img{
+     padding: 20px;
+     margin: 20px;
+     color: white;
 }
