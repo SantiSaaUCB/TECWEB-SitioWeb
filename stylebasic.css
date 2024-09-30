@@ -1,0 +1,142 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     width: 100%;
+     height: 100%;
+}
+html{
+     scroll-behavior: smooth;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+}
+h1{
+     font-size: xx-large;
+}
+ul{
+     list-style-type: none;
+}
+.colores{
+     color: #00CFE2;
+     color: #00B0C0;
+     color: #00D8EA;
+     color: #00919E;
+     color: #00727C;
+     color: #00535A;
+     color: #00434B;
+}
+.icono{
+     height: 35px;
+     width: 35px;
+     padding: 5px;
+}
+.section-img-home{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 150px;
+     width: 150px;
+     margin: auto;
+     border-radius: 8px;
+}.section-gen{
+     height: calc(100vh - 7em);
+     display: grid;
+     grid-template: auto 1fr auto / auto 1fr auto;
+     box-sizing: border-box;
+}
+.div-header-gen{
+     padding: 15px;
+     background-color: #00535A;
+     color: white;
+     grid-column: 1/4;
+}
+.div-nav-gen{
+     width: auto;
+     height: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     list-style-type: none;
+     background-color: #00434B;
+}
+.div-nav-list-gen{
+     display: flex;
+     flex-direction: row;
+     list-style-type: none;
+     padding: 0;
+}
+.div-nav-list-gen li{
+     padding: 10px 70px;
+}
+.div-nav-list-gen li a{
+     color: white;
+     text-decoration: none;
+     padding: 5px;
+     border-radius: 5px;
+}
+.div-aside-left-gen{
+     padding: 15px 5px;
+     background-color: #00919E;
+     color: white;
+     grid-column: 1 / 2;
+}
+.div-aside-right-gen{
+     padding: 15px 10px;
+     background-color: #00919E;
+     color: white;
+     grid-column: 3 / 4;
+}
+.div-main-gen{
+     padding: 15px;    
+     background-color: #00727C;
+     color: white;
+     grid-column: 2 / 3;
+}
+.div-footer-gen{
+     padding: 15px;
+     background-color: #00535A;
+     color: white;
+     grid-column: 1 / 4;
+}
+.div-section-gen{
+     padding: 10px;
+     margin: 10px 0;
+     background-color: #00535A;
+     border-radius: 5px;
+}
+.div-section-gen p{
+     margin: 0;
+     color: white;
+}
+.icono-zorro{
+     width: 150px;
+     height: 150px;
+}
+th{
+     padding: 30px;
+     color: #00434B;
+     font-size: small;
+     border: 2px solid black;
+}
+table{
+     border-collapse: collapse;
+     margin: 20px;
+}
+.icono-zorro{
+     width: 150px;
+     height: 150px;
+}
+.section-tablas{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: auto;
+}
+.div-tablas{
+     padding: 50px;
+}
